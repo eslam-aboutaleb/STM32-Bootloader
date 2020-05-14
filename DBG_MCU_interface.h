@@ -1,0 +1,15 @@
+/* ///////////////////////////////////////////////////////////////////////////
+ * 
+ *
+ *  Author: Eslam Aboutaleb
+/////////////////////////////////////////////////////////////////////////// */ 
+
+#ifndef DBG_MCU_INTERFACE_H
+#define DBG_MCU_INTERFACE_H
+
+#include "DBG_MCU_private.h"
+
+uint16 DBG_GetChipID(void);
+
+#endif /*DBG_MCU_INTERFACE_H*/
+

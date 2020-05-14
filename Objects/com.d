@@ -1,0 +1,10 @@
+.\objects\com.o: COM.c
+.\objects\com.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\com.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\objects\com.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\com.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\com.o: STD_TYPES.h
+.\objects\com.o: BIT_MATH.h
+.\objects\com.o: USART_interface.h
+.\objects\com.o: UART_private.h
+.\objects\com.o: COM.h

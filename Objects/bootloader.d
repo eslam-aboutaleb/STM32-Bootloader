@@ -1,0 +1,11 @@
+.\objects\bootloader.o: Bootloader.c
+.\objects\bootloader.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\bootloader.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\bootloader.o: STD_TYPES.h
+.\objects\bootloader.o: BIT_MATH.h
+.\objects\bootloader.o: main_SupportFuncs.h
+.\objects\bootloader.o: COM.h
+.\objects\bootloader.o: SW.h
+.\objects\bootloader.o: Led_interface.h
+.\objects\bootloader.o: Led_Port.h
+.\objects\bootloader.o: BL_interface.h

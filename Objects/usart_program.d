@@ -1,0 +1,11 @@
+.\objects\usart_program.o: USART_program.c
+.\objects\usart_program.o: STD_TYPES.h
+.\objects\usart_program.o: BIT_MATH.h
+.\objects\usart_program.o: RCC_interface.h
+.\objects\usart_program.o: RCC_private.h
+.\objects\usart_program.o: GPIO_interface.h
+.\objects\usart_program.o: GPIO_private.h
+.\objects\usart_program.o: SysTick_interface.h
+.\objects\usart_program.o: SysTick_private.h
+.\objects\usart_program.o: USART_interface.h
+.\objects\usart_program.o: UART_private.h

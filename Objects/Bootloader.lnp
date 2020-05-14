@@ -1,0 +1,20 @@
+--cpu=Cortex-M4.fp.sp
+".\objects\bl_prog.o"
+".\objects\bl_services.o"
+".\objects\com.o"
+".\objects\dbg_mcu.o"
+".\objects\flash.o"
+".\objects\gpio_prog.o"
+".\objects\led.o"
+".\objects\main_supportfuncs.o"
+".\objects\rcc_program.o"
+".\objects\sw.o"
+".\objects\systick.o"
+".\objects\usart_program.o"
+".\objects\bootloader.o"
+".\objects\startup_stm32f446xx.o"
+".\objects\system_stm32f4xx.o"
+--strict --scatter ".\Objects\Bootloader.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Bootloader.map" -o .\Objects\Bootloader.axf
